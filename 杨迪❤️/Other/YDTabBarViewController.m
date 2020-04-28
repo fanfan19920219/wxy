@@ -41,14 +41,16 @@
     twoNav.tabBarItem.image = [UIImage imageNamed:@"zhanghaosvg.png"];
     two.title = @"";
     
+    
     self.viewControllers =@[oneNav,twoNav];
     self.tabBar.tintColor = MainColor;
     self.tabBar.backgroundColor = [UIColor whiteColor];
-    self.tabBar.hidden = YES;
+//    self.tabBar.hidden = YES;
     //设置导航栏背景色和文字颜色
     [[UINavigationBar appearance] setBarTintColor:MainColor];
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
-    [self.view addSubview:self.barView];
+//    [self.view addSubview:self.barView];
+    
 }
 
 
@@ -57,6 +59,10 @@
         _barView = [[UIView alloc]init];
         _barView.backgroundColor = RGBA(244, 244, 244, 0.4);
         _barView.frame = CGRectMake(0, ScreenHeight - SafeAreaBottomHeight - BARHEIGHT, ScreenWidth, SafeAreaBottomHeight + BARHEIGHT);
+        UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeSystem];
+        leftButton.frame = CGRectMake(0, 5, 30, 30);
+        [leftButton setBackgroundImage:[UIImage imageNamed:@"杨"] forState:UIControlStateNormal];
+        [_barView addSubview:leftButton];
     }
     return _barView;
 }

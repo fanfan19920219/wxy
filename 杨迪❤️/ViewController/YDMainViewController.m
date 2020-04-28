@@ -10,6 +10,8 @@
 #import "Header.h"
 #import "ContentView.h"
 #import <QuartzCore/QuartzCore.h>
+#import <AFNetworking.h>
+
 @interface YDMainViewController ()<UIScrollViewDelegate>
 @property (nonatomic,strong)UIImageView *backImageView;
 @property (nonatomic,strong)UIImageView *backAlphaImageVIew;
@@ -32,6 +34,12 @@
     [self addContentView];
     [self addFlower];
     
+    
+    
+}
+
+-(void)getshanxiWeather{
+//    []
 }
 
 -(void)addContentView{

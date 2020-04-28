@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47A394DDFB24B7E6D8D92369 /* libPods-杨迪❤️.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0E2E3AA824755A94AC0133 /* libPods-杨迪❤️.a */; };
+		50C40029A90A0F23AE1B3673 /* libPods-杨迪❤️UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE98268D4709200238CF52CF /* libPods-杨迪❤️UITests.a */; };
+		68EFC15D0537020AC4BD18B2 /* libPods-杨迪❤️Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 668DB3258C5948A12C3D1760 /* libPods-杨迪❤️Tests.a */; };
 		9B70A5432456C74A00C7A1CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70A5422456C74A00C7A1CC /* AppDelegate.m */; };
 		9B70A5462456C74A00C7A1CC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70A5452456C74A00C7A1CC /* SceneDelegate.m */; };
 		9B70A5492456C74A00C7A1CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70A5482456C74A00C7A1CC /* ViewController.m */; };
@@ -48,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031B8460A91D2B0E50D2510F /* Pods-杨迪❤️Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-杨迪❤️Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-杨迪❤️Tests/Pods-杨迪❤️Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		297672CB6F1C3A23BC431621 /* Pods-杨迪❤️Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-杨迪❤️Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-杨迪❤️Tests/Pods-杨迪❤️Tests.release.xcconfig"; sourceTree = "<group>"; };
+		40AF808245F94161C80AEADC /* Pods-杨迪❤️UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-杨迪❤️UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-杨迪❤️UITests/Pods-杨迪❤️UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		668DB3258C5948A12C3D1760 /* libPods-杨迪❤️Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-杨迪❤️Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B70A53E2456C74A00C7A1CC /* 宝藏杨迪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "宝藏杨迪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B70A5412456C74A00C7A1CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B70A5422456C74A00C7A1CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,10 +68,10 @@
 		9B70A5522456C74C00C7A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B70A5532456C74C00C7A1CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B70A5592456C74C00C7A1CC /* 杨迪❤️Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "杨迪❤️Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B70A55D2456C74C00C7A1CC /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		9B70A55D2456C74C00C7A1CC /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____Tests.m; sourceTree = "<group>"; };
 		9B70A55F2456C74C00C7A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B70A5642456C74C00C7A1CC /* 杨迪❤️UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "杨迪❤️UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B70A5682456C74C00C7A1CC /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		9B70A5682456C74C00C7A1CC /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____UITests.m; sourceTree = "<group>"; };
 		9B70A56A2456C74C00C7A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B70A5762456C92400C7A1CC /* YDTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTabBarViewController.h; sourceTree = "<group>"; };
 		9B70A5772456C92400C7A1CC /* YDTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTabBarViewController.m; sourceTree = "<group>"; };
@@ -84,6 +91,11 @@
 		9B70A5932456D8BC00C7A1CC /* YDPersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPersonalViewController.h; sourceTree = "<group>"; };
 		9B70A5942456D8BC00C7A1CC /* YDPersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPersonalViewController.m; sourceTree = "<group>"; };
 		9B70A5952456D8BC00C7A1CC /* YDPersonalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDPersonalViewController.xib; sourceTree = "<group>"; };
+		9FF1E61CEC3016A3D5525DCB /* Pods-杨迪❤️.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-杨迪❤️.release.xcconfig"; path = "Pods/Target Support Files/Pods-杨迪❤️/Pods-杨迪❤️.release.xcconfig"; sourceTree = "<group>"; };
+		D0E2F96C40CD9A79FF3A9C2D /* Pods-杨迪❤️UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-杨迪❤️UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-杨迪❤️UITests/Pods-杨迪❤️UITests.release.xcconfig"; sourceTree = "<group>"; };
+		DBAF7AD0E44A3D975D64AB0B /* Pods-杨迪❤️.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-杨迪❤️.debug.xcconfig"; path = "Pods/Target Support Files/Pods-杨迪❤️/Pods-杨迪❤️.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0E2E3AA824755A94AC0133 /* libPods-杨迪❤️.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-杨迪❤️.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE98268D4709200238CF52CF /* libPods-杨迪❤️UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-杨迪❤️UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47A394DDFB24B7E6D8D92369 /* libPods-杨迪❤️.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EFC15D0537020AC4BD18B2 /* libPods-杨迪❤️Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,12 +119,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C40029A90A0F23AE1B3673 /* libPods-杨迪❤️UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32621BE92B01C4A00FAED184 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E2E3AA824755A94AC0133 /* libPods-杨迪❤️.a */,
+				668DB3258C5948A12C3D1760 /* libPods-杨迪❤️Tests.a */,
+				FE98268D4709200238CF52CF /* libPods-杨迪❤️UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B70A5352456C74A00C7A1CC = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +143,8 @@
 				9B70A55C2456C74C00C7A1CC /* 杨迪❤️Tests */,
 				9B70A5672456C74C00C7A1CC /* 杨迪❤️UITests */,
 				9B70A53F2456C74A00C7A1CC /* Products */,
+				B1B35316A1CD94E582660D20 /* Pods */,
+				32621BE92B01C4A00FAED184 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,9 +225,9 @@
 		9B70A58E2456CC9200C7A1CC /* VIew */ = {
 			isa = PBXGroup;
 			children = (
-				9B70A5882456CB4500C7A1CC /* ContentView.xib */,
 				9B70A5892456CB4500C7A1CC /* ContentView.h */,
 				9B70A5872456CB4500C7A1CC /* ContentView.m */,
+				9B70A5882456CB4500C7A1CC /* ContentView.xib */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -217,6 +244,19 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		B1B35316A1CD94E582660D20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBAF7AD0E44A3D975D64AB0B /* Pods-杨迪❤️.debug.xcconfig */,
+				9FF1E61CEC3016A3D5525DCB /* Pods-杨迪❤️.release.xcconfig */,
+				031B8460A91D2B0E50D2510F /* Pods-杨迪❤️Tests.debug.xcconfig */,
+				297672CB6F1C3A23BC431621 /* Pods-杨迪❤️Tests.release.xcconfig */,
+				40AF808245F94161C80AEADC /* Pods-杨迪❤️UITests.debug.xcconfig */,
+				D0E2F96C40CD9A79FF3A9C2D /* Pods-杨迪❤️UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B70A56D2456C74C00C7A1CC /* Build configuration list for PBXNativeTarget "杨迪❤️" */;
 			buildPhases = (
+				3570E5CBF139EB9BE937999E /* [CP] Check Pods Manifest.lock */,
 				9B70A53A2456C74A00C7A1CC /* Sources */,
 				9B70A53B2456C74A00C7A1CC /* Frameworks */,
 				9B70A53C2456C74A00C7A1CC /* Resources */,
@@ -241,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B70A5702456C74C00C7A1CC /* Build configuration list for PBXNativeTarget "杨迪❤️Tests" */;
 			buildPhases = (
+				502C109A328E918D6274285D /* [CP] Check Pods Manifest.lock */,
 				9B70A5552456C74C00C7A1CC /* Sources */,
 				9B70A5562456C74C00C7A1CC /* Frameworks */,
 				9B70A5572456C74C00C7A1CC /* Resources */,
@@ -259,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B70A5732456C74C00C7A1CC /* Build configuration list for PBXNativeTarget "杨迪❤️UITests" */;
 			buildPhases = (
+				E0C69F636B014E6EB49C52CA /* [CP] Check Pods Manifest.lock */,
 				9B70A5602456C74C00C7A1CC /* Sources */,
 				9B70A5612456C74C00C7A1CC /* Frameworks */,
 				9B70A5622456C74C00C7A1CC /* Resources */,
@@ -348,6 +391,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3570E5CBF139EB9BE937999E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-杨迪❤️-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		502C109A328E918D6274285D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-杨迪❤️Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C69F636B014E6EB49C52CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-杨迪❤️UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B70A53A2456C74A00C7A1CC /* Sources */ = {
@@ -529,15 +629,13 @@
 		};
 		9B70A56E2456C74C00C7A1CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBAF7AD0E44A3D975D64AB0B /* Pods-杨迪❤️.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----";
 				PRODUCT_NAME = "宝藏杨迪";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -546,15 +644,13 @@
 		};
 		9B70A56F2456C74C00C7A1CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF1E61CEC3016A3D5525DCB /* Pods-杨迪❤️.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----";
 				PRODUCT_NAME = "宝藏杨迪";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -563,17 +659,14 @@
 		};
 		9B70A5712456C74C00C7A1CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031B8460A91D2B0E50D2510F /* Pods-杨迪❤️Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -583,17 +676,14 @@
 		};
 		9B70A5722456C74C00C7A1CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297672CB6F1C3A23BC431621 /* Pods-杨迪❤️Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -603,15 +693,12 @@
 		};
 		9B70A5742456C74C00C7A1CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40AF808245F94161C80AEADC /* Pods-杨迪❤️UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -621,15 +708,12 @@
 		};
 		9B70A5752456C74C00C7A1CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E2F96C40CD9A79FF3A9C2D /* Pods-杨迪❤️UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

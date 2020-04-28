@@ -10,6 +10,17 @@
 //#define Header_h
 
 //UDID MD5_UDID
+
+
+//聚合数据的key
+//tianqiyubaodekey
+#define WEATHERKEY @"996983796e4657ce844bd26d2aea6ae0"
+
+
+
+
+
+
 #define UDID [[[UIDevice currentDevice] identifierForVendor] UUIDString]
 #define MD5_UDID [UDID md5]
 
