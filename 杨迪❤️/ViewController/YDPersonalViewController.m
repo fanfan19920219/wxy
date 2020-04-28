@@ -14,9 +14,19 @@
 
 @implementation YDPersonalViewController
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.view.backgroundColor = [UIColor blackColor];
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    
+    
+    
 }
 
 /*

@@ -3,7 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +13,29 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ContentView">
             <rect key="frame" x="0.0" y="0.0" width="465" height="444"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="生活值得被期待" translatesAutoresizingMaskIntoConstraints="NO" id="Vme-dh-hfc">
+                    <rect key="frame" x="20" y="13" width="418" height="81"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="81" id="LyZ-Tz-05Y"/>
+                        <constraint firstAttribute="width" constant="418" id="ihm-iz-1VE"/>
+                    </constraints>
+                </imageView>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="0.67040346746575341" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Vme-dh-hfc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="13" id="bmc-Wc-8Ae"/>
+                <constraint firstItem="Vme-dh-hfc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="hVz-nN-bmm"/>
+            </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="174.63768115942031" y="271.20535714285711"/>
+            <point key="canvasLocation" x="174.63768115942031" y="270.53571428571428"/>
         </view>
     </objects>
+    <resources>
+        <image name="生活值得被期待" width="728" height="104"/>
+    </resources>
 </document>
