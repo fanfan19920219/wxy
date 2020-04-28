@@ -3,7 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,9 +24,56 @@
                         <constraint firstAttribute="height" constant="389" id="4qa-hG-nPI"/>
                     </constraints>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLw-wh-Gl6">
+                    <rect key="frame" x="163" y="372" width="112" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="OVv-9r-BB0"/>
+                        <constraint firstAttribute="width" constant="112" id="rGa-0S-vTn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
+                    <state key="normal" title="叫        床  💖">
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                    <connections>
+                        <action selector="getup:" destination="-1" eventType="touchUpInside" id="HAN-9b-y0R"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fP2-lP-I5x">
+                    <rect key="frame" x="38" y="433" width="107" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="a2p-6n-Axz"/>
+                        <constraint firstAttribute="width" constant="107" id="aI8-56-HdP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
+                    <state key="normal" title="喂       饱  🍚">
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                    <connections>
+                        <action selector="eat:" destination="-1" eventType="touchUpInside" id="y9K-3C-bcU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JyJ-J1-Kf3">
+                    <rect key="frame" x="193" y="468" width="99" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="fbg-Oi-4cq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
+                    <state key="normal" title="陪       伴  💕">
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                    <connections>
+                        <action selector="accompany:" destination="-1" eventType="touchUpInside" id="4oy-HX-As3"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="JyJ-J1-Kf3" firstAttribute="top" secondItem="FLw-wh-Gl6" secondAttribute="bottom" constant="56" id="0cn-Uw-3ga"/>
+                <constraint firstItem="fP2-lP-I5x" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="38" id="7Eb-gO-wzj"/>
+                <constraint firstItem="FLw-wh-Gl6" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="328" id="9JJ-Ig-YVn"/>
+                <constraint firstItem="fP2-lP-I5x" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="389" id="dwd-1m-hut"/>
+                <constraint firstItem="JyJ-J1-Kf3" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="193" id="gXt-Xb-dcI"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="FLw-wh-Gl6" secondAttribute="trailing" constant="139" id="ihG-yN-mOS"/>
                 <constraint firstItem="HuJ-Zn-0tN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rKm-J8-Sox"/>
                 <constraint firstItem="HuJ-Zn-0tN" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="tdZ-hn-Skj"/>
                 <constraint firstItem="HuJ-Zn-0tN" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="yyL-W4-FK7"/>

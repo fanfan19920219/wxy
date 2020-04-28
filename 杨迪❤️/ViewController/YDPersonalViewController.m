@@ -1,7 +1,7 @@
 //
 //  YDPersonalViewController.m
 //  杨迪❤️
-//
+//  
 //  Created by Farben on 2020/4/27.
 //  Copyright © 2020 Farben. All rights reserved.
 //
@@ -22,12 +22,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    
-    
     
     
 }
+
+
+- (IBAction)getup:(UIButton *)sender {
+    NSLog(@"current");
+}
+
+- (IBAction)eat:(UIButton *)sender {
+    NSLog(@"current");
+}
+
+- (IBAction)accompany:(UIButton *)sender {
+    NSLog(@"current");
+}
+
+
+
 
 /*
 #pragma mark - Navigation
