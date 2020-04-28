@@ -18,6 +18,8 @@
 
 @property (nonatomic,strong)UIView *barView;
 
+@property (nonatomic,strong)UIImageView *imageView;
+
 @end
 
 @implementation YDTabBarViewController
@@ -44,11 +46,12 @@
     self.viewControllers =@[oneNav,twoNav];
     self.tabBar.tintColor = MainColor;
     self.tabBar.backgroundColor = [UIColor whiteColor];
-    self.tabBar.hidden = YES;
+//    self.tabBar.hidden = YES;
     //设置导航栏背景色和文字颜色
     [[UINavigationBar appearance] setBarTintColor:MainColor];
+    
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
-    [self.view addSubview:self.barView];
+//    [self.view addSubview:self.barView];
 }
 
 

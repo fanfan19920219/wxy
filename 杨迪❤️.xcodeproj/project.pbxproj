@@ -198,9 +198,9 @@
 		9B70A58E2456CC9200C7A1CC /* VIew */ = {
 			isa = PBXGroup;
 			children = (
-				9B70A5882456CB4500C7A1CC /* ContentView.xib */,
 				9B70A5892456CB4500C7A1CC /* ContentView.h */,
 				9B70A5872456CB4500C7A1CC /* ContentView.m */,
+				9B70A5882456CB4500C7A1CC /* ContentView.xib */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
