@@ -7,6 +7,8 @@
 //
 
 #import "YDPersonalViewController.h"
+#import "Header.h"
+#import "YDgetupViewController.h"
 
 @interface YDPersonalViewController ()
 
@@ -29,6 +31,10 @@
 
 - (IBAction)getup:(UIButton *)sender {
     NSLog(@"current");
+    YDgetupViewController *getupVC = [[YDgetupViewController alloc]init];
+    [self.navigationController presentViewController:getupVC animated:YES completion:^{
+        
+    }];
 }
 
 - (IBAction)eat:(UIButton *)sender {

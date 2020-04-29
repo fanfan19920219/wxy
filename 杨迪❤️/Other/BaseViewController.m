@@ -43,7 +43,8 @@
     [self setStatusBarStyle:UIStatusBarStyleLightContent];
     [self setNavigationBarShadowImage:[UIImage new]];
 //    [self initLeftBarButton:@"icon_titlebar_whiteback"];
-    [self setBackgroundColor:ColorWhite];
+//    [self setBackgroundColor:ColorWhite];
+    
 }
 
 

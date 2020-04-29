@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36F488302459D19F000F5897 /* YDgetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F4882E2459D19F000F5897 /* YDgetupViewController.m */; };
+		36F488312459D19F000F5897 /* YDgetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36F4882F2459D19F000F5897 /* YDgetupViewController.xib */; };
 		47A394DDFB24B7E6D8D92369 /* libPods-杨迪❤️.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0E2E3AA824755A94AC0133 /* libPods-杨迪❤️.a */; };
 		50C40029A90A0F23AE1B3673 /* libPods-杨迪❤️UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE98268D4709200238CF52CF /* libPods-杨迪❤️UITests.a */; };
 		68EFC15D0537020AC4BD18B2 /* libPods-杨迪❤️Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 668DB3258C5948A12C3D1760 /* libPods-杨迪❤️Tests.a */; };
@@ -53,6 +55,9 @@
 /* Begin PBXFileReference section */
 		031B8460A91D2B0E50D2510F /* Pods-杨迪❤️Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-杨迪❤️Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-杨迪❤️Tests/Pods-杨迪❤️Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		297672CB6F1C3A23BC431621 /* Pods-杨迪❤️Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-杨迪❤️Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-杨迪❤️Tests/Pods-杨迪❤️Tests.release.xcconfig"; sourceTree = "<group>"; };
+		36F4882D2459D19F000F5897 /* YDgetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDgetupViewController.h; sourceTree = "<group>"; };
+		36F4882E2459D19F000F5897 /* YDgetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDgetupViewController.m; sourceTree = "<group>"; };
+		36F4882F2459D19F000F5897 /* YDgetupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDgetupViewController.xib; sourceTree = "<group>"; };
 		40AF808245F94161C80AEADC /* Pods-杨迪❤️UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-杨迪❤️UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-杨迪❤️UITests/Pods-杨迪❤️UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		668DB3258C5948A12C3D1760 /* libPods-杨迪❤️Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-杨迪❤️Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B70A53E2456C74A00C7A1CC /* 宝藏杨迪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "宝藏杨迪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,10 +73,10 @@
 		9B70A5522456C74C00C7A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B70A5532456C74C00C7A1CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B70A5592456C74C00C7A1CC /* 杨迪❤️Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "杨迪❤️Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B70A55D2456C74C00C7A1CC /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____Tests.m; sourceTree = "<group>"; };
+		9B70A55D2456C74C00C7A1CC /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		9B70A55F2456C74C00C7A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B70A5642456C74C00C7A1CC /* 杨迪❤️UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "杨迪❤️UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B70A5682456C74C00C7A1CC /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____UITests.m; sourceTree = "<group>"; };
+		9B70A5682456C74C00C7A1CC /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		9B70A56A2456C74C00C7A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B70A5762456C92400C7A1CC /* YDTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTabBarViewController.h; sourceTree = "<group>"; };
 		9B70A5772456C92400C7A1CC /* YDTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTabBarViewController.m; sourceTree = "<group>"; };
@@ -218,6 +223,9 @@
 				9B70A5932456D8BC00C7A1CC /* YDPersonalViewController.h */,
 				9B70A5942456D8BC00C7A1CC /* YDPersonalViewController.m */,
 				9B70A5952456D8BC00C7A1CC /* YDPersonalViewController.xib */,
+				36F4882D2459D19F000F5897 /* YDgetupViewController.h */,
+				36F4882E2459D19F000F5897 /* YDgetupViewController.m */,
+				36F4882F2459D19F000F5897 /* YDgetupViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -366,6 +374,7 @@
 				9B70A5832456CAD300C7A1CC /* 樱花树2.png in Resources */,
 				9B70A5512456C74C00C7A1CC /* LaunchScreen.storyboard in Resources */,
 				9B70A54E2456C74C00C7A1CC /* Assets.xcassets in Resources */,
+				36F488312459D19F000F5897 /* YDgetupViewController.xib in Resources */,
 				9B70A5972456D8BC00C7A1CC /* YDPersonalViewController.xib in Resources */,
 				9B70A57F2456CAD300C7A1CC /* 樱花瓣2.png in Resources */,
 				9B70A5812456CAD300C7A1CC /* 樱花树1.png in Resources */,
@@ -463,6 +472,7 @@
 				9B70A5432456C74A00C7A1CC /* AppDelegate.m in Sources */,
 				9B70A5542456C74C00C7A1CC /* main.m in Sources */,
 				9B70A5462456C74A00C7A1CC /* SceneDelegate.m in Sources */,
+				36F488302459D19F000F5897 /* YDgetupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +645,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----";
 				PRODUCT_NAME = "宝藏杨迪";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -650,7 +663,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----";
 				PRODUCT_NAME = "宝藏杨迪";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -666,7 +682,11 @@
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -683,7 +703,11 @@
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -698,7 +722,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -713,7 +741,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = "杨迪❤️UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zzh.----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
