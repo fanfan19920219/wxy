@@ -3,13 +3,14 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YDgetupViewController">
             <connections>
+                <outlet property="backScrollView" destination="xxf-qf-kAn" id="h8d-gd-bED"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,30 +19,51 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMS-VE-DI7">
-                    <rect key="frame" x="47" y="63" width="31" height="30"/>
-                    <state key="normal" title="添加"/>
-                    <connections>
-                        <action selector="addCase:" destination="-1" eventType="touchUpInside" id="peH-9p-7EF"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l28-NQ-4ob">
-                    <rect key="frame" x="333" y="63" width="31" height="30"/>
-                    <state key="normal" title="取消"/>
-                    <connections>
-                        <action selector="cancelClick:" destination="-1" eventType="touchUpInside" id="Byp-gx-BCw"/>
-                    </connections>
-                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="起床背景" translatesAutoresizingMaskIntoConstraints="NO" id="T6e-F2-olV">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xxf-qf-kAn">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8gZ-MZ-tVu">
+                            <rect key="frame" x="310" y="152" width="49" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AFo-u8-hEY">
+                            <rect key="frame" x="310" y="237" width="49" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="乖乖睡觉" translatesAutoresizingMaskIntoConstraints="NO" id="1vJ-r3-k0D">
+                            <rect key="frame" x="54" y="231" width="178" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="好好吃饭" translatesAutoresizingMaskIntoConstraints="NO" id="QIt-3a-Fm0">
+                            <rect key="frame" x="38" y="146" width="194" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <viewLayoutGuide key="contentLayoutGuide" id="Frj-5t-FHa"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="P1T-Ao-Bwt"/>
+                </scrollView>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="SMS-VE-DI7" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="19" id="2te-di-sWP"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="l28-NQ-4ob" secondAttribute="trailing" constant="50" id="Btc-xI-lGw"/>
-                <constraint firstItem="SMS-VE-DI7" firstAttribute="baseline" secondItem="l28-NQ-4ob" secondAttribute="baseline" id="UfX-cx-4ZA"/>
-                <constraint firstItem="SMS-VE-DI7" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="47" id="kq6-AU-fcn"/>
+                <constraint firstItem="T6e-F2-olV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="AdB-OU-Mk5"/>
+                <constraint firstAttribute="bottom" secondItem="T6e-F2-olV" secondAttribute="bottom" id="LAz-BG-bwS"/>
+                <constraint firstItem="xxf-qf-kAn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="XHP-Ao-gxE"/>
+                <constraint firstItem="xxf-qf-kAn" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Xm4-Yx-dcn"/>
+                <constraint firstItem="T6e-F2-olV" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="f4g-Rf-dao"/>
+                <constraint firstItem="xxf-qf-kAn" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="ick-5U-sMv"/>
+                <constraint firstItem="T6e-F2-olV" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="jF8-4H-eaE"/>
+                <constraint firstAttribute="bottom" secondItem="xxf-qf-kAn" secondAttribute="bottom" id="wP4-jd-0eb"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
-            <point key="canvasLocation" x="139" y="86"/>
+            <point key="canvasLocation" x="137.68115942028987" y="85.714285714285708"/>
         </view>
     </objects>
+    <resources>
+        <image name="乖乖睡觉" width="361" height="100"/>
+        <image name="好好吃饭" width="359" height="106"/>
+        <image name="起床背景" width="1080" height="1440"/>
+    </resources>
 </document>

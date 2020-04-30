@@ -19,6 +19,12 @@
 
 
 
+-(ContentView *)dateView{
+    NSArray* nibView =  [[NSBundle mainBundle] loadNibNamed:@"ContentView" owner:self options:nil];
+    return [nibView objectAtIndex:1];
+}
+
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

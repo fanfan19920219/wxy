@@ -8,10 +8,12 @@
 
 #import "YDgetupViewController.h"
 #import "Header.h"
+#import "ContentView.h"
 
 @interface YDgetupViewController ()
+@property (weak, nonatomic) IBOutlet UIScrollView *backScrollView;
 
-@property (nonatomic,strong)UIImageView *backImageView;
+//@property (nonatomic,strong)UIImageView *backImageView;
 
 @end
 
@@ -19,22 +21,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.backImageView = [[UIImageView alloc]initWithFrame:self.view.bounds];
-    self.backImageView.image = [UIImage imageNamed:@"起床背景"];
-    self.backImageView.alpha = 0.4;
-    self.backImageView.contentMode = UIViewContentModeScaleAspectFill;
-    
-    
-    
-    [self.view addSubview:self.backImageView];
+
     // Do any additional setup after loading the view from its nib.
     self.view.backgroundColor= ColorWhite;
+    self.backScrollView.contentSize = CGSizeMake(0, 1000);
     
     
 }
 
 
 - (IBAction)addCase:(UIButton *)sender {
+    ContentView *addContentView = [[ContentView alloc]dateView];
+    addContentView.frame = CGRectMake(40, 150, 300, 300);
+    [self.view addSubview:addContentView];
+    
+//    ContentView *addContentView = [[ContentView alloc]dateView];
 }
 
 - (IBAction)cancelClick:(UIButton *)sender {
