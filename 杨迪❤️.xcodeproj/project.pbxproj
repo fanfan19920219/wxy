@@ -12,6 +12,10 @@
 		47A394DDFB24B7E6D8D92369 /* libPods-杨迪❤️.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0E2E3AA824755A94AC0133 /* libPods-杨迪❤️.a */; };
 		50C40029A90A0F23AE1B3673 /* libPods-杨迪❤️UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE98268D4709200238CF52CF /* libPods-杨迪❤️UITests.a */; };
 		68EFC15D0537020AC4BD18B2 /* libPods-杨迪❤️Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 668DB3258C5948A12C3D1760 /* libPods-杨迪❤️Tests.a */; };
+		9B49F884245FBB110043A234 /* UIView+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B49F883245FBB110043A234 /* UIView+Events.m */; };
+		9B49F887245FBEC40043A234 /* webViewSlidView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B49F886245FBEC40043A234 /* webViewSlidView.m */; };
+		9B49F889245FBED40043A234 /* webViewSlidView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B49F888245FBED40043A234 /* webViewSlidView.xib */; };
+		9B49F88F245FF4800043A234 /* YDWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B49F88E245FF4800043A234 /* YDWebViewViewController.m */; };
 		9B70A5432456C74A00C7A1CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70A5422456C74A00C7A1CC /* AppDelegate.m */; };
 		9B70A5462456C74A00C7A1CC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70A5452456C74A00C7A1CC /* SceneDelegate.m */; };
 		9B70A5492456C74A00C7A1CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70A5482456C74A00C7A1CC /* ViewController.m */; };
@@ -60,6 +64,13 @@
 		36F4882F2459D19F000F5897 /* YDgetupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDgetupViewController.xib; sourceTree = "<group>"; };
 		40AF808245F94161C80AEADC /* Pods-杨迪❤️UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-杨迪❤️UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-杨迪❤️UITests/Pods-杨迪❤️UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		668DB3258C5948A12C3D1760 /* libPods-杨迪❤️Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-杨迪❤️Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B49F882245FBB110043A234 /* UIView+Events.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Events.h"; sourceTree = "<group>"; };
+		9B49F883245FBB110043A234 /* UIView+Events.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Events.m"; sourceTree = "<group>"; };
+		9B49F885245FBEC40043A234 /* webViewSlidView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webViewSlidView.h; sourceTree = "<group>"; };
+		9B49F886245FBEC40043A234 /* webViewSlidView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webViewSlidView.m; sourceTree = "<group>"; };
+		9B49F888245FBED40043A234 /* webViewSlidView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = webViewSlidView.xib; sourceTree = "<group>"; };
+		9B49F88D245FF4800043A234 /* YDWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDWebViewViewController.h; sourceTree = "<group>"; };
+		9B49F88E245FF4800043A234 /* YDWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDWebViewViewController.m; sourceTree = "<group>"; };
 		9B70A53E2456C74A00C7A1CC /* 宝藏杨迪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "宝藏杨迪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B70A5412456C74A00C7A1CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B70A5422456C74A00C7A1CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -226,6 +237,8 @@
 				36F4882D2459D19F000F5897 /* YDgetupViewController.h */,
 				36F4882E2459D19F000F5897 /* YDgetupViewController.m */,
 				36F4882F2459D19F000F5897 /* YDgetupViewController.xib */,
+				9B49F88D245FF4800043A234 /* YDWebViewViewController.h */,
+				9B49F88E245FF4800043A234 /* YDWebViewViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -236,6 +249,9 @@
 				9B70A5892456CB4500C7A1CC /* ContentView.h */,
 				9B70A5872456CB4500C7A1CC /* ContentView.m */,
 				9B70A5882456CB4500C7A1CC /* ContentView.xib */,
+				9B49F885245FBEC40043A234 /* webViewSlidView.h */,
+				9B49F886245FBEC40043A234 /* webViewSlidView.m */,
+				9B49F888245FBED40043A234 /* webViewSlidView.xib */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -248,6 +264,8 @@
 				9B70A5912456CF1B00C7A1CC /* BaseViewController.h */,
 				9B70A5902456CF1B00C7A1CC /* BaseViewController.m */,
 				9B70A58C2456CB5100C7A1CC /* Header.h */,
+				9B49F882245FBB110043A234 /* UIView+Events.h */,
+				9B49F883245FBB110043A234 /* UIView+Events.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -379,6 +397,7 @@
 				9B70A57F2456CAD300C7A1CC /* 樱花瓣2.png in Resources */,
 				9B70A5812456CAD300C7A1CC /* 樱花树1.png in Resources */,
 				9B70A54C2456C74A00C7A1CC /* Main.storyboard in Resources */,
+				9B49F889245FBED40043A234 /* webViewSlidView.xib in Resources */,
 				9B70A5802456CAD300C7A1CC /* 樱花瓣1.png in Resources */,
 				9B70A58B2456CB4600C7A1CC /* ContentView.xib in Resources */,
 				9B70A5822456CAD300C7A1CC /* 樱花树3.png in Resources */,
@@ -465,13 +484,16 @@
 			files = (
 				9B70A58A2456CB4600C7A1CC /* ContentView.m in Sources */,
 				9B70A5922456CF1C00C7A1CC /* BaseViewController.m in Sources */,
+				9B49F88F245FF4800043A234 /* YDWebViewViewController.m in Sources */,
 				9B70A5862456CB0600C7A1CC /* YDMainViewController.m in Sources */,
+				9B49F884245FBB110043A234 /* UIView+Events.m in Sources */,
 				9B70A5782456C92400C7A1CC /* YDTabBarViewController.m in Sources */,
 				9B70A5492456C74A00C7A1CC /* ViewController.m in Sources */,
 				9B70A5962456D8BC00C7A1CC /* YDPersonalViewController.m in Sources */,
 				9B70A5432456C74A00C7A1CC /* AppDelegate.m in Sources */,
 				9B70A5542456C74C00C7A1CC /* main.m in Sources */,
 				9B70A5462456C74A00C7A1CC /* SceneDelegate.m in Sources */,
+				9B49F887245FBEC40043A234 /* webViewSlidView.m in Sources */,
 				36F488302459D19F000F5897 /* YDgetupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

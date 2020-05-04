@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "BaseViewController.h"
 #import "Header.h"
+#import "UIView+Events.h"
 @interface BaseViewController ()
 
 
@@ -21,6 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -31,8 +33,6 @@
 
 
 -(void)click:(UIButton*)sender{
-    
-    NSLog(@"button click");
     sender.backgroundColor = MainColor;
 }
 

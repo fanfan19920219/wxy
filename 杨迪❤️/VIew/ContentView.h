@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) IBOutlet UITextField *addTimeTextField;
 
+@property (weak, nonatomic) IBOutlet UIButton *meituanButton;
 -(ContentView *)contentView;
 
 -(ContentView*)dateView;

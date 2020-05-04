@@ -21,6 +21,11 @@
                         <constraint firstAttribute="width" constant="418" id="ihm-iz-1VE"/>
                     </constraints>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQG-th-7he">
+                    <rect key="frame" x="279" y="250" width="83" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="跳转present"/>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="0.67040346746575341" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -37,6 +42,7 @@
                 <outlet property="addTimeTextField" destination="pPN-1B-7sl" id="ZAS-UD-mRY"/>
                 <outlet property="cancelButton" destination="U6V-W1-4bQ" id="zlO-du-Boo"/>
                 <outlet property="caseTextField" destination="rTn-PL-BDz" id="Xz1-fl-Qsc"/>
+                <outlet property="meituanButton" destination="iQG-th-7he" id="6fB-73-dAZ"/>
             </connections>
             <point key="canvasLocation" x="174.63768115942031" y="270.53571428571428"/>
         </view>

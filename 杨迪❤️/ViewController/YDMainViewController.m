@@ -10,6 +10,7 @@
 #import "Header.h"
 #import "ContentView.h"
 #import <QuartzCore/QuartzCore.h>
+#import "YDWebViewViewController.h"
 #import <AFNetworking.h>
 
 @interface YDMainViewController ()<UIScrollViewDelegate>
@@ -34,8 +35,6 @@
     [self addContentView];
     [self addFlower];
     
-    
-    
 }
 
 -(void)getshanxiWeather{
@@ -46,6 +45,21 @@
     self.downContentView = [[ContentView alloc]contentView];
     self.downContentView.frame = CGRectMake(0, 400, ScreenWidth, ScreenHeight);
     [self.backScrollView addSubview:self.downContentView];
+    
+    
+    [self.downContentView.meituanButton addTarget:self action:@selector(jumpToMeiTuan:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+-(void)jumpToMeiTuan:(UIButton*)sender{
+    
+    YDWebViewViewController *webViewVC = [[YDWebViewViewController alloc]init];
+//    self.modalPresentationStyle = 0;
+    webViewVC.modalPresentationStyle = 0;
+    
+    [self presentViewController:webViewVC animated:YES completion:^{
+        
+    }];
+    
     
 }
 

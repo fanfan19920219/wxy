@@ -18,7 +18,7 @@
 
 
 
-
+#define WEAKSELF __weak typeof(self) weakSelf = self;
 
 
 #define UDID [[[UIDevice currentDevice] identifierForVendor] UUIDString]
